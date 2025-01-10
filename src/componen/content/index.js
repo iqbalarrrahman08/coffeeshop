@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import img from "../../img/tentangKami.jpg";
 import menu1 from "../../img/menu/1.jpg";
 import { Mail, Phone, User } from "feather-icons-react/build/IconComponents";
-const Index = () => {
+import Product from "../Product";
+const Index = ({ data }) => {
   return (
     <div>
       <section id="about" className="about">
@@ -61,6 +63,10 @@ const Index = () => {
         </div>
       </section>
       {/* menu section */}
+
+      {/* Products section start */}
+      <Product  />
+      {/* Products section end */}
 
       {/* contact section start */}
       <section id="contact" className="contact">

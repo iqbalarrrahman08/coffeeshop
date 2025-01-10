@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "1.jpg",
+    "name": "Robusta Brazil",
+    "price": 20000
+  },
+  {
+    "id": 2,
+    "img": "2.jpg",
+    "name": "Arabica Blend",
+    "price": 30000
+  },
+  {
+    "id": 3,
+    "img": "3.jpg",
+    "name": "Primopasso coffee",
+    "price": 40000
+  }
+]
